@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<!--
+	Made for the Land Wu Community with much Love
+	LandWu.life 
+
+	Based on Eventually by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Livin' th' Land Wu Li'fe</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+
+	<body class="is-preload">
+
+		<audio autoplay id="divAudio">
+			<source src="audio/ttw3.ogg" type="audio/ogg">
+  			<source src="audio/ttw3.mp3" type="audio/mpeg">
+		</audio>
+		<script>
+		   var isPlayin = false;
+		   function playTTW()
+		   {
+		      if(!isPlayin)
+		      {
+		        document.getElementById("divAudio").play();
+		        isPlayin = true;
+		      }
+		      else
+		      {
+		      	document.getElementById("divAudio").pause();
+		      	isPlayin = false;
+		      }
+		   }
+		</script>
+
+		<!-- Header -->
+			<header id="header">
+				<p style="font-family: 'Midorima - Personal Use'">
+				 <span style="text-transform: uppercase">Born</span> under the sign of the <span style="text-transform: uppercase">Dragon</span>. <br />
+				 <span style="text-transform: uppercase">Infused</span> with the <span style="text-transform: uppercase">fiery spirit</span> of <span style="text-transform: uppercase">ancient wisdom</span>. <br />
+				 <span style="text-transform: uppercase">Navigating</span> the meme world with <span style="text-transform: uppercase">cheeky confidence</span>.</p>
+				<p style="font-family: 'Midorima - Personal Use'">
+				 LaND&nbsp;<a href="#" class="icon solid fa-dragon" onclick="playTTW()"></a>&nbsp;WU
+				</p>
+			</header>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">					
+					<li><a href="https://www.landwueth.com/" class="icon solid fa-globe"><span class="label">Website</span></a></li>
+					<li><a href="https://t.me/landwuportal" class="icon brands fa-telegram"><span class="label">Telegram</span></a></li>
+					<li><a href="https://x.com/LandWuEth" class="icon solid fa-hashtag"><span class="label">Twitter</span></a></li>
+					<li><a href="https://etherscan.io/address/0x67c4D14861f9c975d004cFB3aC305beE673E996E" class="icon brands fa-ethereum"><span class="label">Ethereum</span></a></li>
+					<li><a href="https://dexscreener.com/ethereum/0xc6c8f121f6b56896628a7b15c1fcde6d395b908a" class="icon solid fa-chart-bar"><span class="label">DEX Screener</span></a></li>
+					<li><a href="https://www.youtube.com/results?search_query=landwu" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
+					<li><a href="#" class="icon solid fa-users"><span class="label">Members</span></a></li>
+					<li><a href="#" class="icon brands fa-shopify"><span class="label">Store</span></a></li>
+					<li><a href="#" class="icon solid fa-joint"><span class="label">Rollin</span></a></li>					
+				</ul>
+				<ul class="copyright">
+					<li>Buy me a <i class="icon solid fa-mug-hot"></i>&nbsp;0x83F20297e16042D24AE1425c2249da0fD7e567a8 &nbsp;
+					<a onclick="playTTW()" class="icon solid fa-music"></a> <a href="#" onclick="playTTW()" class="icon solid fa-volume-up"></a></li>
+					<li><a href="bitcoin:3ETMM6vRpgTSwTvQFbjJScizTSwbtiuWzw" class="icon brands fa-bitcoin"></a>&nbsp;						
+					    <a href="https://html5up.net" class="icon brands fa-creative-commons"><span class="label">HTML5 UP</span></a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
